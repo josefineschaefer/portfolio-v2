@@ -1,4 +1,4 @@
-<body class="h-full bg-gray-light p-8">
+<body class="h-full p-8">
 	<header class="top-0 left-0 fixed w-full h-24 bg-yellow-200">
 		<nav class="flex items-center justify-between h-full px-8">
 			<a href="/">
@@ -14,7 +14,7 @@
 		<h2 class="text-6xl md:text-8xl lg:text-9xl text-left uppercase pb-12 break-words">
 			Communication & <br />Code
 		</h2>
-		<p class="pb-10 text-xl indent-96 uppercase">
+		<p class="pb-10 text-xl indent-96">
 			Initially from a communications background, Josefine got into frontend development in her late
 			twenties by joining a coding boot camp. After working as a front-end developer for two years,
 			she now combines her curiosity for tech with her experience in marketing and communications
