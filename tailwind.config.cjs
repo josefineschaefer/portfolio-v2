@@ -6,7 +6,9 @@ module.exports = {
 			sansSerif: ['Syne', 'sans-serif']
 		},
 		colors: {
-			'gray-light': '#f0f1ee'
+			'gray-light': '#f0f1ee',
+			'gray-dark': '#635150',
+			'egg-shell': '#f2ebeb'
 		},
 		extend: {}
 	},

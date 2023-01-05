@@ -4,15 +4,18 @@
 			<a href="/">
 				<img src={'/Logo.png'} alt="Josefine Schaefer Logo" />
 			</a>
-			<ul>About Me</ul>
-			<ul>Blog</ul>
-			<ul>Talks</ul>
-			<ul>Contact</ul>
+			<ol class="flex list-decimal space-x-16 uppercase">
+				<li>
+					<a href="/about">About</a>
+				</li>
+				<li><a href="/talks">Talks</a></li>
+				<li><a href="/blog">Blog</a></li>
+			</ol>
 		</nav>
 	</header>
 	<main class="mt-24">
 		<h2 class="text-6xl md:text-8xl lg:text-9xl text-left uppercase pb-12 break-words">
-			Communication & <br />Code
+			Community, Code & Coffee
 		</h2>
 		<p class="pb-10 text-xl indent-96">
 			Initially from a communications background, Josefine got into frontend development in her late
@@ -34,3 +37,9 @@
 		</section>
 	</main>
 </body>
+
+<style lang="postcss">
+	li a {
+		@apply border-solid border rounded-full py-1 px-5 hover:text-egg-shell hover:bg-gray-dark;
+	}
+</style>
