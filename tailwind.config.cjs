@@ -8,7 +8,8 @@ module.exports = {
 		colors: {
 			'gray-light': '#f0f1ee',
 			'gray-dark': '#635150',
-			'egg-shell': '#f2ebeb'
+			'egg-shell': '#f2ebeb',
+			dark: '#1b1819'
 		},
 		extend: {}
 	},

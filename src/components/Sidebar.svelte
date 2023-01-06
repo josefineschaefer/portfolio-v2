@@ -26,9 +26,9 @@ position: absolute; left: 25%; right: 25%; bottom: 0; border: 1px solid black;
 		@apply max-h-[28px] w-auto;
 	}
 	li a:hover::after {
-		@apply block content-[''] absolute w-7 h-[1.5px] bg-[#1b1819] mt-2 my-0 mx-auto left-0 right-0;
+		@apply block content-[''] absolute w-7 h-[1.5px] bg-dark mt-2 my-0 mx-auto left-0 right-0;
 	}
 	li:last-child::after {
-		@apply block content-[''] w-[1.5px] h-14 bg-[#1b1819] ml-auto mr-auto mt-6;
+		@apply block content-[''] w-[1.5px] h-14 bg-dark ml-auto mr-auto mt-6;
 	}
 </style>
