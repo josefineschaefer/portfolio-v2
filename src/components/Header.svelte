@@ -1,4 +1,4 @@
-<header class="top-0 left-0 fixed w-full h-24 bg-yellow-200">
+<header class="top-0 left-0 fixed w-full h-24 z-11 bg-[#e8e6df]">
 	<nav class="flex items-center justify-between h-full px-8">
 		<a href="/">
 			<img src={'/Logo.png'} alt="Josefine Schaefer Logo" />
