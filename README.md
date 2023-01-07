@@ -1,3 +1,12 @@
+<h1>Portfolio</h1>
+
+Portfolio page built with [SvelteKit](https://kit.svelte.dev/) & [Tailwind](https://tailwindcss.com/).
+Design by [Nicolai Diekmann](https://www.instagram.com/nicolaidiekmann/).
+
+🚧 Very much work in progress 🚧
+
+If you want to build you own Sveltekit project, follow these instructions ⬇️
+
 # create-svelte
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
