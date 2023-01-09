@@ -4,15 +4,21 @@
 		<img
 			alt="portrait of Josefine"
 			src="/images/JosefinePortrait.png"
-			class="max-w-xs h-auto rounded-lg mr-5"
+			class="lg:h-[400px] rounded-lg mr-5"
 		/>
-		<p class="max-w-md text-xl pb-10">
-			Initially from a communications background, Josefine got into frontend development in her late
-			twenties by joining a coding boot camp. After working as a front-end developer for two years,
-			she now combines her curiosity for tech with her experience in marketing and communications
-			and works as a Developer Relations Engineer at Storyblok. She is a Girl Code ambassador,
-			passionate about all things web accessibility and coding communities.
-		</p>
+		<div class="inline-block justify-end">
+			<p class="max-w-md text-xl pb-10">
+				Initially from a communications background, Josefine got into frontend development in her
+				late twenties by joining a coding boot camp. After working as a front-end developer for two
+				years, she now combines her curiosity for tech with her experience in marketing and
+				communications and works as a Developer Relations Engineer at Storyblok. She is a Girl Code
+				ambassador, passionate about all things web accessibility and coding communities.
+			</p>
+			<a
+				href="mailto:schaeferj@hotmail.de"
+				class="border-solid border rounded-full py-1 px-5 hover:text-egg-shell hover:bg-dark;"
+				>Say Hello👋</a
+			>
+		</div>
 	</section>
-	<h2 class="text-right">get in touch</h2>
 </main>

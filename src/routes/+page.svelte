@@ -9,11 +9,7 @@
 			passionate about all things web accessibility and coding communities.
 		</p>
 		<section class="grid justify-beteween">
-			<img
-				alt="portrait of Josefine"
-				src="/images/JosefinePortrait.png"
-				class="max-w-xs h-auto rounded-lg mr-5"
-			/>
+			<img alt="portrait of Josefine" src="/images/JosefinePortrait.png" class="rounded-lg mr-5" />
 
 			<h1 class="text-right self-end break-normal">
 				Josefine <br /> Schaefer
