@@ -19,8 +19,6 @@
 	</li>
 </ul>
 
-position: absolute; left: 25%; right: 25%; bottom: 0; border: 1px solid black;
-
 <style lang="postcss">
 	img {
 		@apply max-h-[28px] w-auto;

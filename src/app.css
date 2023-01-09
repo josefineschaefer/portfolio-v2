@@ -5,6 +5,13 @@
 
 @layer base {
 body {
-    @apply font-sansSerif bg-[#e8e6df]
+    @apply font-sansSerif bg-[#e8e6df] overflow-x-hidden
 }
+h1 {
+    @apply text-6xl md:text-7xl lg:text-9xl uppercase
+}
+h2 {
+    @apply text-6xl md:text-7xl lg:text-9xl uppercase pb-12
+}
+
 }
