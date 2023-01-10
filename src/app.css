@@ -8,10 +8,10 @@ body {
     @apply font-sansSerif bg-[#e8e6df] overflow-x-hidden
 }
 h1 {
-    @apply text-6xl md:text-7xl lg:text-9xl uppercase text-dark
+    @apply text-6xl md:text-7xl lg:text-9xl text-dark
 }
 h2 {
-    @apply text-6xl md:text-7xl lg:text-9xl uppercase pb-12 text-dark
+    @apply text-6xl md:text-7xl lg:text-9xl pb-12 text-dark
 }
 
 }

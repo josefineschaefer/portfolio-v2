@@ -7,7 +7,7 @@
 			class="lg:h-[400px] rounded-lg mr-5"
 		/>
 		<div class="inline-block justify-end">
-			<p class="max-w-md text-xl pb-10">
+			<p class="max-w-xl text-xl pb-10">
 				Initially from a communications background, Josefine got into frontend development in her
 				late twenties by joining a coding boot camp. After working as a front-end developer for two
 				years, she now combines her curiosity for tech with her experience in marketing and
@@ -16,8 +16,8 @@
 			</p>
 			<a
 				href="mailto:schaeferj@hotmail.de"
-				class="border border-solid border-black rounded-full py-1 px-5 hover:text-egg-shell hover:bg-dark"
-				>Say Hello👋</a
+				class="border border-solid border-black rounded-full text-2xl uppercase py-1 px-5 hover:text-egg-shell hover:bg-dark"
+				>Say Hello 👋</a
 			>
 		</div>
 	</section>
