@@ -60,7 +60,7 @@
 </script>
 
 <h2 aria-expanded={open} class="group text-dark text-5xl">
-	<button on:click={handleToggle} type="button" class="´{buttonClass}´ border-black border-b-4">
+	<button on:click={handleToggle} type="button" class={`${buttonClass} border-black border-b-4`}>
 		<slot name="header" />
 		{#if open}
 			<slot name="arrowup"><ChevronUp /></slot>

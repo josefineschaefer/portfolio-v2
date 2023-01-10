@@ -15,6 +15,6 @@
 
 <style lang="postcss">
 	li a {
-		@apply border-solid border rounded-full py-1 px-5 hover:text-egg-shell hover:bg-dark;
+		@apply border border-black border-solid rounded-full py-1 px-5 hover:text-egg-shell hover:bg-dark;
 	}
 </style>

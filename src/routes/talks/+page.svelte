@@ -3,7 +3,7 @@
 	import AccordionItem from '../../components/AccordionItem.svelte';
 </script>
 
-<Accordion class="lg:p-28 md:p-20 text-dark">
+<Accordion class=" p-20 md:p-20 lg:p-28 text-dark">
 	<AccordionItem>
 		<span slot="header">Demystifying Web Accessibility</span>
 		<div slot="arrowup">

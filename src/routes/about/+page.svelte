@@ -16,7 +16,7 @@
 			</p>
 			<a
 				href="mailto:schaeferj@hotmail.de"
-				class="border-solid border rounded-full py-1 px-5 hover:text-egg-shell hover:bg-dark;"
+				class="border border-solid border-black rounded-full py-1 px-5 hover:text-egg-shell hover:bg-dark"
 				>Say Hello👋</a
 			>
 		</div>
