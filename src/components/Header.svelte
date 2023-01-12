@@ -3,12 +3,12 @@
 		<a href="/">
 			<img src={'/Logo.png'} alt="Josefine Schaefer Logo" />
 		</a>
-		<ol class="flex list-decimal space-x-16 uppercase">
+		<ul class="flex space-x-16 uppercase">
 			<li>
 				<a href="/about">About</a>
 			</li>
 			<li><a href="/talks">Talks</a></li>
-		</ol>
+		</ul>
 	</nav>
 </header>
 

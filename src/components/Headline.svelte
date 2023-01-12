@@ -5,7 +5,7 @@
 </script>
 
 <div use:storyblokEditable={blok}>
-	<h1 class="text-left">
+	<h1 class="text-left lg:indent-96 md:indent-56">
 		{blok.headline}
 	</h1>
 </div>

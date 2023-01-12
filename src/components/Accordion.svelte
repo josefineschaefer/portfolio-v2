@@ -41,5 +41,9 @@
 </script>
 
 <Frame class={frameClass} color="none" border={!flush}>
+	<p class="text-xl pb-4 indent-10">
+		Looking for a speaker or MC for your event? <br /> Get in touch via email or Twitter.
+	</p>
+	<h1 class="uppercase text-right">Talks</h1>
 	<slot />
 </Frame>
