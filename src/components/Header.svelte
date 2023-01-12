@@ -1,14 +1,21 @@
+<script>
+	export let header;
+</script>
+
 <header class="top-0 left-0 fixed w-full h-24 z-11 bg-[#e8e6df]">
 	<nav class="flex items-center justify-between h-full px-8">
-		<a href="/">
+		<a href="home">
 			<img src={'/Logo.png'} alt="Josefine Schaefer Logo" />
 		</a>
-		<ul class="flex space-x-16 uppercase">
-			<li>
-				<a href="/about">About</a>
-			</li>
-			<li><a href="/talks">Talks</a></li>
-		</ul>
+		{#if header}
+			<ul class="flex space-x-16 uppercase">
+				{#each header as blok}
+					<li>
+						<a href={blok.link.story.slug}> {blok.link.story.name}</a>
+					</li>
+				{/each}
+			</ul>
+		{/if}
 	</nav>
 </header>
 

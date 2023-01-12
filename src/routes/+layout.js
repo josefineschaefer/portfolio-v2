@@ -1,4 +1,3 @@
-import Header from '../components/Header.svelte';
 import Headline from '../components/Headline.svelte';
 import Sidebar from '../components/Sidebar.svelte';
 import Page from '../components/Page.svelte';
@@ -13,7 +12,6 @@ export async function load() {
 		accessToken: 'rrzemCf3ET4ogGL3QdtvLwtt',
 		use: [apiPlugin],
 		components: {
-			header: Header,
 			sidebar: Sidebar,
 			headline: Headline,
 			page: Page,
@@ -25,8 +23,13 @@ export async function load() {
 		}
 	});
 	let storyblokApi = await useStoryblokApi();
+	const dataConfig = await storyblokApi.get('cdn/stories/config/', {
+		version: 'draft',
+		resolve_links: 'url'
+	});
 
 	return {
-		storyblokApi: storyblokApi
+		storyblokApi: storyblokApi,
+		header: dataConfig.data.story.content.header_menu
 	};
 }
