@@ -1,14 +1,22 @@
+<script>
+	export let header_menu;
+	export let header_logo;
+</script>
+
 <header class="top-0 left-0 fixed w-full h-24 z-11 bg-[#e8e6df]">
 	<nav class="flex items-center justify-between h-full px-8">
-		<a href="/">
-			<img src={'/Logo.png'} alt="Josefine Schaefer Logo" />
+		<a href="home">
+			<img src={header_logo.filename} alt={header_logo.alt} />
 		</a>
-		<ol class="flex list-decimal space-x-16 uppercase">
-			<li>
-				<a href="/about">About</a>
-			</li>
-			<li><a href="/talks">Talks</a></li>
-		</ol>
+		{#if header_menu}
+			<ul class="flex space-x-16 uppercase">
+				{#each header_menu as blok}
+					<li>
+						<a href={blok.link.story.slug}> {blok.link.story.name}</a>
+					</li>
+				{/each}
+			</ul>
+		{/if}
 	</nav>
 </header>
 
