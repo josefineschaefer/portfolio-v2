@@ -4,10 +4,11 @@
 	import Footer from '../components/Footer.svelte';
 	export let data;
 
+	console.log(data, 'data layout');
 	import '../app.css';
 </script>
 
-<Header header={data.header} />
+<Header header_menu={data.header_menu} header_logo={data.header_logo} />
 <Sidebar />
 <slot />
 <Footer />

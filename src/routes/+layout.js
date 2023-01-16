@@ -2,6 +2,7 @@ import Headline from '../components/Headline.svelte';
 import Sidebar from '../components/Sidebar.svelte';
 import Page from '../components/Page.svelte';
 import Text from '../components/Text.svelte';
+import Header from '../components/Header.svelte';
 import Subheadline from '../components/Subheadline.svelte';
 
 import { apiPlugin, storyblokInit, useStoryblokApi } from '@storyblok/svelte';
@@ -14,6 +15,7 @@ export async function load() {
 		components: {
 			sidebar: Sidebar,
 			headline: Headline,
+			header: Header,
 			page: Page,
 			text: Text,
 			subheadline: Subheadline
@@ -30,6 +32,7 @@ export async function load() {
 
 	return {
 		storyblokApi: storyblokApi,
-		header: dataConfig.data.story.content.header_menu
+		header_menu: dataConfig.data.story.content.header_menu,
+		header_logo: dataConfig.data.story.content.header_logo
 	};
 }

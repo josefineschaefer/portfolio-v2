@@ -1,8 +1,9 @@
 <script>
 	import { onMount } from 'svelte';
 	import { useStoryblokBridge, StoryblokComponent } from '@storyblok/svelte';
-
 	export let data;
+
+	//TODO: render bridge conditionally
 	onMount(() => {
 		if (data.story) {
 			useStoryblokBridge(data.story.id, (newStory) => (data.story = newStory));
