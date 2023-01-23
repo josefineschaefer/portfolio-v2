@@ -13,7 +13,7 @@
 		/>
 		<div>
 			<p class="pb-10">
-				<!-- {blok.text} -->
+				{blok.text}
 				Born in Germany’s East, raised in the North - lived all over the place, from Beijing to Tilburg,
 				Kaoshiung to Tallinn and Cumbaya. At home, anywhere where, where there is good coffee and some
 				friendly faces.
@@ -22,7 +22,7 @@
 				href="mailto:schaeferj@hotmail.de"
 				class="border border-solid border-black rounded-full text-2xl uppercase py-1 px-5 hover:text-egg-shell hover:bg-dark justify-self-end"
 				>Say Hello 👋
-				<!-- {blok.button}</a -->
+				{blok.button}</a
 				>
 			</a>
 		</div>

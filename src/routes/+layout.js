@@ -1,7 +1,9 @@
 import Headline from '../components/Headline.svelte';
 import Sidebar from '../components/Sidebar.svelte';
 import Page from '../components/Page.svelte';
+import Button from '../components/Button.svelte';
 import Text from '../components/Text.svelte';
+import Image from '../components/Image.svelte';
 import Header from '../components/Header.svelte';
 import Subheadline from '../components/Subheadline.svelte';
 
@@ -14,6 +16,8 @@ export async function load() {
 		use: [apiPlugin],
 		components: {
 			sidebar: Sidebar,
+			image: Image,
+			button: Button,
 			headline: Headline,
 			header: Header,
 			page: Page,
