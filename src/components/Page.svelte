@@ -5,7 +5,7 @@
 </script>
 
 {#key blok}
-	<main use:storyblokEditable={blok} class="h-full p-28 mt-10">
+	<main use:storyblokEditable={blok} class="min-h-screen p-28 mt-10">
 		{#each blok.body as blok}
 			<StoryblokComponent {blok} />
 		{/each}

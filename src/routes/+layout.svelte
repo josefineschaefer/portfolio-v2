@@ -3,8 +3,6 @@
 	import Sidebar from '../components/Sidebar.svelte';
 	import Footer from '../components/Footer.svelte';
 	export let data;
-
-	console.log(data, 'data layout');
 	import '../app.css';
 </script>
 
