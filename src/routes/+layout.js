@@ -6,13 +6,15 @@ import Text from '../components/Text.svelte';
 import Image from '../components/Image.svelte';
 import Header from '../components/Header.svelte';
 import Subheadline from '../components/Subheadline.svelte';
+import { PUBLIC_ACCESSTOKEN } from '$env/static/public';
+// rrzemCf3ET4ogGL3QdtvLwtt
 
 import { apiPlugin, storyblokInit, useStoryblokApi } from '@storyblok/svelte';
 
 /** @type {import('./$types').LayoutLoad} */
 export async function load() {
 	storyblokInit({
-		accessToken: 'rrzemCf3ET4ogGL3QdtvLwtt',
+		accessToken: PUBLIC_ACCESSTOKEN,
 		use: [apiPlugin],
 		components: {
 			sidebar: Sidebar,
